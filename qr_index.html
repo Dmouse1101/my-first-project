@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        .box{
+            margin:12vh auto 0vh;
+            background-color:#ffff;
+            box-shadow: 1px 1px 15px rgb(165, 154, 154);
+            border-radius:6vh;
+            background-position: cover;
+            width:25em;
+            height:55vw;
+        }
+        .image{
+            display:flex;
+            justify-content:center;
+        }
+        .box h2{
+            padding: 2.1em 2em 0;
+            text-overflow: ellipsis;
+            font-weight:bolder;
+            color:rgb(0, 6, 92);
+            font-family:cursive ;
+            text-align: center;
+        }
+        .box p{
+            color:grey;
+            font-family:cursive;
+            text-transform:capitalize;
+            padding: 2.1em 2em 0;
+            /* text-overflow:ellipsis; */
+            text-align: center;
+            font-size:large;
+        }
+        img{
+            margin-top: 2.5em;
+            width:20em;
+            border-radius:3vh;
+            height:auto;
+        }
+        @media (max-width:600px ){
+            .box{
+                height: 70vh;
+            }
+        }
+        @media (max-width:1000px ){
+            .box{
+                height:70vh;
+            }
+        
+        }
+
+        </style>
+
+</head>
+<body style="background-color:rgb(210, 210, 215);">
+    <div class="box">
+        <div class="image"><img src="images/image-qr-code.png" alt=""></div>
+        <h2>improve your front-end skills by making projects.</h2>
+        <p>scan this qr code to visit frontend mentor and take your coding skills to next level.</p>
+    </div>
+</body>
+</html>
